@@ -3029,7 +3029,8 @@ Generated on: ${new Date().toLocaleDateString()}
 
       {/* Student Dashboard Link Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-3xl shadow-2xl p-8 text-center hover:shadow-3xl transition-all duration-300">
+<div className="rounded-3xl shadow-2xl p-8 text-center hover:shadow-3xl transition-all duration-300 relative overflow-hidden" style={{ backgroundImage: 'url(https://i.pinimg.com/1200x/b1/c9/19/b1c9193211eec2cc2045fe340e718212.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+       /* changes made here <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-3xl shadow-2xl p-8 text-center hover:shadow-3xl transition-all duration-300">*/
           <div className="flex flex-col items-center gap-4">
             <div className="size-16 bg-white/20 backdrop-blur-lg rounded-2xl flex items-center justify-center">
               <GraduationCap className="size-10 text-white" />
