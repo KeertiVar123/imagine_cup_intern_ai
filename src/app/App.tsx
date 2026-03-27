@@ -1,14 +1,13 @@
-import image_d211268d491d4fd0de24f74a81dbb41e5f73c007 from 'figma:asset/d211268d491d4fd0de24f74a81dbb41e5f73c007.png';
-import heroImage from 'figma:asset/21b5e226009d285697734e05ed85a683951839be.png';
-import studentBgImage from 'figma:asset/8e5c9a4413ab761f8d54a264dfefe2d597e58306.png';
-import orgBgImage from 'figma:asset/0cbd207ecdb192b0b5fdd9e7c0c46a40a6af48f8.png';
-import govInternshipImage from 'figma:asset/e93870b49ef4689a21edf0c29eaac68e821e4891.png';
-import mncInternshipImage from 'figma:asset/30d88de873583bc5ba134eff63a005d91581ff1d.png';
-import techBgImage from 'figma:asset/43cd3dbee5e6e04eb75362febde5f92fcd719966.png';
-import circuitBoardBg from 'figma:asset/2bae6b290ac3cf7e3d056029eb4fce8ea99d522d.png';
-// New logo image URL
-const newLogo = 'https://i.pinimg.com/736x/0b/ee/52/0bee520d4fb8b2aaab112febc45bc316.jpg';
-import bgImage from 'figma:asset/888ddc719adc1e1a015741519a4b938ce693442f.png';
+const image_d211268d491d4fd0de24f74a81dbb41e5f73c007 = "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80";
+const heroImage = "https://i.pinimg.com/736x/09/6e/35/096e359e1e0bee3457c3517b09c4d165.jpg";
+const studentBgImage = "https://i.pinimg.com/736x/96/3f/26/963f261fb3cf29c56a57ad8122fdf408.jpg";
+const orgBgImage = "https://i.pinimg.com/1200x/36/20/de/3620de5dec3eda8d22fb20b7e0c95953.jpg";
+const govInternshipImage = "https://i.pinimg.com/736x/c6/11/42/c61142d43932fbb1894587ececf0e806.jpg";
+const mncInternshipImage = "https://i.pinimg.com/1200x/20/f0/3c/20f03cf64d201ca22c70c4a33364874c.jpg";
+const techBgImage = "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80";
+const circuitBoardBg = "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80";
+const newLogo = "https://i.pinimg.com/736x/0b/ee/52/0bee520d4fb8b2aaab112febc45bc316.jpg"; // A generic education logo
+const bgImage = "https://i.pinimg.com/1200x/27/49/0c/27490c11dcf909b6e37d05e309a73b51.jpg";
 import { useState, useEffect, useCallback, memo, useMemo } from 'react';
 import { 
   GraduationCap, Building2, Globe, Target, TrendingUp, 
